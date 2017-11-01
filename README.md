@@ -9,12 +9,12 @@ java -cp pa1.jar server start <portnumber>
 
 <b>Following are the different commands supported by the client.</b>
 <p>java -cp pa1.jar client upload <path_on_client> </path/filename/on/server></p>
-java -cp pa1.jar client download </path/existing_filename/on/server> <path_on_client>
-java -cp pa1.jar client dir </path/existing_directory/on/server>
-java -cp pa1.jar client mkdir </path/new_directory/on/server>
-java -cp pa1.jar client rmdir </path/existing_directory/on/server>
-java -cp pa1.jar client rm </path/existing_filename/on/server>
-java -cp pa1.jar client shutdown
+<p>java -cp pa1.jar client download </path/existing_filename/on/server> <path_on_client></p>
+<p>java -cp pa1.jar client dir </path/existing_directory/on/server></p>
+<p>java -cp pa1.jar client mkdir </path/new_directory/on/server></p>
+<p>java -cp pa1.jar client rmdir </path/existing_directory/on/server></p>
+<p>java -cp pa1.jar client rm </path/existing_filename/on/server></p>
+<p>java -cp pa1.jar client shutdown</p>
 
-
-Multiple clients can talk to the server at the same time. 
+<br>
+<p>Multiple clients can talk to the server at the same time. </p>
