@@ -8,7 +8,7 @@ java -cp pa1.jar server start <portnumber>
 <b>To run the client</b>, first youe need to set the enviornment variable named PA1_SERVER=<hostname:port>
 
 <b>Following are the different commands supported by the client.</b>
-java -cp pa1.jar client upload <path_on_client> </path/filename/on/server>
+<p>java -cp pa1.jar client upload <path_on_client> </path/filename/on/server></p>
 java -cp pa1.jar client download </path/existing_filename/on/server> <path_on_client>
 java -cp pa1.jar client dir </path/existing_directory/on/server>
 java -cp pa1.jar client mkdir </path/new_directory/on/server>
